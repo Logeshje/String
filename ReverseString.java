@@ -8,6 +8,6 @@ public class ReverseString{
 		System.out.println("Enter the String");
 		String string = scan.nextLine();
 		StringBuilder reversed = new StringBuilder(string);
-		reversed.replace(0, 0, "kannan");
+		reversed.reverse();
 	}
 }
